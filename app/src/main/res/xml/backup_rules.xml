@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Phase 12 Privacy Hardening:
+   Exclude sensitive local history databases, temporary caches, and exported image buffers
+   from automatic cloud backup. Only non-sensitive user presets may be backed up.
+-->
+<full-backup-content>
+    <exclude domain="database" path="image_studio_database" />
+    <exclude domain="database" path="image_studio_database-shm" />
+    <exclude domain="database" path="image_studio_database-wal" />
+    <exclude domain="file" path="exports" />
+    <exclude domain="file" path="shared_temp" />
+</full-backup-content>

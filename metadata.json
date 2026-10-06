@@ -1,0 +1,6 @@
+{
+  "name": "Image Studio",
+  "description": "Universal all-in-one photo, signature & image utility suite for cropping, exact pixel & file size resize, compression, format conversion, DPI & print size, image enhancement & tonal grading, on-device background removal & replacement, passport & ID photo creation, signature prep, perspective correction, document scanning, photo sheets, batch processing, and EXIF management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
